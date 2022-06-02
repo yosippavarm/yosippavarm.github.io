@@ -1,0 +1,131 @@
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:mistyrose ;
+}
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color:ivory;
+}
+
+.letter-box-small {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: .9rem;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color:ivory;
+}
+.result-box {
+  /*border: 2px solid gray;
+  border-radius: 3px;*/
+  margin: 2px;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color:mistyrose ;
+}
+.result-heart {
+  /*border: 2px solid gray;
+  border-radius: 3px;*/
+  margin: 3px;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 1rem;
+  width: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color:mistyrose ;
+}
+.result-share {
+  
+  
+  font-size: 1rem;
+  font-weight: 700;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:mistyrose ;
+  
+}
+.fill-box{
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+.fill-box-small{
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+.filled-box {
+  border: 2px solid black;
+}
+
+.letter-row {
+  display: flex;
+  background-color:mistyrose ;  
+}
+.emp-box {
+  /*border: 2px solid gray;
+  border-radius: 3px;*/
+  margin: 6px;
+  font-size: 5rem;
+  font-weight: 1500;
+  height: 10rem;
+  width: 10rem;
+  
+  
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color:mistyrose ;
+}
+.align-left{ float: left;width:50%; }
+.align-right{ float: right;width:50%; }
